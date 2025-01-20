@@ -22,7 +22,7 @@ resource "aws_instance" "myec2" {
    key_name = "jenkins-master"
 
    tags = {
-      Name = "Example"
+      Name = "terraform-deployed-vm"
    }
 
 }

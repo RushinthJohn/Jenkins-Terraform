@@ -19,7 +19,7 @@ provider "aws" {
 resource "aws_instance" "myec2" {
    ami = "ami-09988af04120b3591"
    instance_type = "t2.micro"
-   key_name = "enkins-master"
+   key_name = "jenkins-master"
    tags = {
       Name = "Example"
    }
